@@ -21,32 +21,32 @@ Basic functions:
 
 Function | Description
 --------- | ------------
-createNode | creat a tree node.
+createNode | Creat a tree node.
 
 
-Functions of encryption:
+Functions of Encryption:
 
 Function | Description
 --------- | ------------
-Encode_atext  |the main function of encryption.
-createfreqtree | creat frequency tree "a map which have a key of specific char and value of it's frequancy in the main text"
-createHuffmantree | creat huffman tree "using priority queue to organize the freqtree .Then taking the least 2 freq and make the a child of a new node with a freq = sum of the 2 least freq and iterate until there is one node in the queue"
-createHuffmancodes | create a map of keys as the char used in the text and values as vector of bools expresing the place of the node in the huffman tree.
-encode | takes the original text and create a vector of bools as the output using the Huffmancodes tree
-printhuffmanCode | printing huffmancodes map each keyy with it's value. 
-printVecof_bool  |print the output vector of "encode" as a string of 1 and 0.
-fromvectostr  |takes the vector of bools and transfer it to string of char (every 8 bools in the vec is transformed to 1 char).
-addsizeofvectostr|adding the true size of the vector to the encrypted string.
+Encode_atext  |The main function of encryption.
+createfreqtree | Creat frequency tree "a map which have a key of specific char and value of it's frequancy in the main text"
+createHuffmantree | Creat huffman tree "using priority queue to organize the freqtree .Then taking the least 2 freq and make the a child of a new node with a freq = sum of the 2 least freq and iterate until there is one node in the queue"
+createHuffmancodes | Create a map of keys as the char used in the text and values as vector of bools expresing the place of the node in the huffman tree.
+encode | Takes the original text and create a vector of bools as the output using the Huffmancodes tree
+printhuffmanCode | Printing huffmancodes map each keyy with it's value. 
+printVecof_bool  |Print the output vector of "encode" as a string of 1 and 0.
+fromvectostr  |Takes the vector of bools and transfer it to string of char (every 8 bools in the vec is transformed to 1 char).
+addsizeofvectostr|Adding the true size of the vector to the encrypted string.
 
 
 
-Functions of decryption:
+Functions of Decryption:
 
 --------- | ------------
-decoded_totext  |the main function of decryption.
-getsizeofvecfromstr|git the size of the original vector and delete the size chars.
-fromstrtovec |transform the encrypted string to the encrypted vector of bools
-decode   | decoding the vector of bools to original string using the huffmantree.
+decoded_totext  |The main function of decryption.
+getsizeofvecfromstr|Get the size of the original vector and delete the size chars.
+fromstrtovec |Transform the encrypted string to the encrypted vector of bools
+decode   | Decoding the vector of bools to original string using the huffmantree.
 
 
 
