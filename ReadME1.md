@@ -17,4 +17,5 @@ decoded_totext|
 
 
 ### __A SIMPLE BLOCK DAIGRAM:__
-![]()
+![](pic.jpg)
+
