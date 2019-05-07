@@ -9,14 +9,14 @@ List of handmade structs used:
 * comp: a struct built to help our priority queue to organize the map.
 
 Basic functions:
-FUNCTION | DESCRIBTION
+FUNCTION  | DESCRIBTION
 --------- | ------------
-createNode | creat a tree node.
+createNode| creat a tree node.
 
 
 Functions of encryption:
 
-FUNCTION | DESCRIBTION
+FUNCTION  | DESCRIBTION
 --------- | ------------
 Encode_atext  |the main function of encryption.
 createfreqtree | creat frequency tree "a map which have a key of specific char and value of it's frequancy in the main text"
@@ -33,10 +33,10 @@ addsizeofvectostr|adding the true size of the vector to the encrypted string.
 Functions of decryption:
 
 --------- | ------------
-decoded_totext  |the main function of decryption.
+decoded_totext|the main function of decryption.
 getsizeofvecfromstr|git the size of the original vector and delete the size chars.
-fromstrtovec |transform the encrypted string to the encrypted vector of bools
-decode   | decoding the vector of bools to original string using the huffmantree.
+fromstrtovec|transform the encrypted string to the encrypted vector of bools
+decode| decoding the vector of bools to original string using the huffmantree.
 
 
 ### __A SIMPLE BLOCK DAIGRAM:__
