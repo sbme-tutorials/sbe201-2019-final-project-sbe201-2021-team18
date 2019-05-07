@@ -9,6 +9,7 @@ List of handmade structs used:
 * comp: a struct built to help our priority queue to organize the map.
 
 Basic functions:
+
 FUNCTION  | DESCRIBTION
 --------- | ------------
 createNode| creat a tree node.
@@ -32,6 +33,7 @@ addsizeofvectostr|adding the true size of the vector to the encrypted string.
 
 Functions of decryption:
 
+FUNCTION  | DESCRIBTION
 --------- | ------------
 decoded_totext|the main function of decryption.
 getsizeofvecfromstr|git the size of the original vector and delete the size chars.
