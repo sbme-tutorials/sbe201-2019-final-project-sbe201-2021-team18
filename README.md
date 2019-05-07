@@ -1,3 +1,5 @@
+## __Huffman Compression Algorithm__
+
 ### __Introduction__
 In computer science a lot of data is encoded to be used efficiently,
 to be able to give instructions to a computer to carry out, information must be passed as bits (i.e. 1's and 0's).
@@ -7,7 +9,12 @@ quality and size can be billions of bits of data).
 So, an efficient method for compression is needed to encode data without losing information.
 We will be exploring the Huffman Compression Algorithm as an example on efficient compression methods.
 
-### __Functions__
+
+### __A Simple Block Daigram:__
+![](pic.jpg)
+
+
+### __Code Guide__
 
 List of handmade structs used:
 * Node: just a normal tree node but holds 2 variables a charactar and integer.
@@ -52,5 +59,3 @@ decode   | Decoding the vector of bools to original string using the huffmantree
 
 
 
-### __A Simple Block Daigram:__
-![](pic.jpg)
