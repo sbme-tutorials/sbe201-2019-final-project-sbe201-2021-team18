@@ -7,13 +7,9 @@ using namespace std;
 int main(){
 
   fstream file; //object of fstream class
-
   std::string x;
- 
   cout << "Please Enter kind of operation ( Encode or Decode )"<<endl;
-  
   cin >> x;  
-
   if (x == "Encode")
   {
 
@@ -91,9 +87,5 @@ int main(){
   {
       cout << "invalid order"<<endl;
   }
-  
-    
-   
-    
    return 0;
 }
