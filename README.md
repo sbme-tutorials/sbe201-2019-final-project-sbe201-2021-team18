@@ -1,10 +1,12 @@
 ### __Introduction__
 In computer science a lot of data is encoded to be used efficiently,
-to be avle to give instructions to a computer to carry out information must be passed as bits (i.e 1's and 0's).
- So, movies, Video games, photographs, text and more are encoded as strigs of bits in a computer,
- and when dealing with those strings computers execute billions of instructions per second (a movie depending on the
- quality nd size can be billions of bits of data).
- So an effiecient method for comprition is needed to encode data without losing information
+to be able to give instructions to a computer to carry out information must be passed as bits (i.e. 1's and 0's).
+So, movies, Video games, photographs, text and more are encoded as strigs of bits in a computer,
+and when dealing with those strings computers execute billions of instructions per second (a movie depending on the
+quality and size can be billions of bits of data).
+So, an efficient method for compression is needed to encode data without losing information.
+We will be exploring the Huffman Compression Algorithm as an example on efficient compression methods.
+
 ### __FUNCTIONS__
 
 FUNCTION | DESCRIBTION
@@ -23,5 +25,5 @@ decoded_totext|
 
 
 
-### __A SIMPLE BLOCK DAIGRAM:__
+### __A Simple Block Daigram:__
 ![](pic.jpg)
