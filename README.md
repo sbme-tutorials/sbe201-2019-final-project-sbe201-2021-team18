@@ -18,7 +18,8 @@ List of handmade structs used:
 * comp: a struct built to help our priority queue to organize the map.
 
 Basic functions:
-FUNCTION | DESCRIBTION
+
+Function | Description
 --------- | ------------
 createNode | creat a tree node.
 
