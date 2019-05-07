@@ -1,6 +1,6 @@
 ### __FUNCTIONS__
 
-List of handmade structs used:
+List of structs used:
 * Node: just a normal tree node but holds 2 variables a charactar and integer.
 * strings:will be the main input and output of our functions.
 * unordered map:used to create the structure of huffman tree.
