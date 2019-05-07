@@ -42,6 +42,7 @@ addsizeofvectostr|Adding the true size of the vector to the encrypted string.
 
 Functions of Decryption:
 
+Function | Description
 --------- | ------------
 decoded_totext  |The main function of decryption.
 getsizeofvecfromstr|Get the size of the original vector and delete the size chars.
