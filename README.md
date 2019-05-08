@@ -60,7 +60,7 @@ decode   | Decoding the vector of bools to original string using the huffmantree
 
 Testing of Huffman's algorith and the library file "Huffman.hpp" by including and using its functions.
 
-# __Code Outlines__
+#### __Code Outlines__
 
 Test file is using a sequence to test the library file both ways: Encoding and Decoding as following:-
 * Request input from user ("Encode" or "Decode").
