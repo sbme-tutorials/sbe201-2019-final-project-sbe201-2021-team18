@@ -13,8 +13,7 @@ int main(){
   if (x == "Encode")
   {
 
-  //open file in read mode
-   file.open("D1.txt",ios::in);
+   file.open("E1.txt",ios::in);     //opening file "E1.txt" in I/P (read) mode
     
    if(!file)
    {
@@ -32,8 +31,7 @@ int main(){
     
    file.close(); //close file
     
-   //opening file "E2.txt" in out(write) mode
-   file.open("E2.txt",ios::out);
+   file.open("E2.txt",ios::out);    //opening file "E2.txt" in O/P (write) mode
     
    if(!file)
    {
@@ -50,7 +48,7 @@ int main(){
   else if (x == "Decode") 
   {
       //again open file in read mode
-   file.open("D1.txt",ios::in);
+   file.open("D1.txt",ios::in);     //opening file "D1.txt" in I/P (read) mode
     
    if(!file)
    {
@@ -68,8 +66,7 @@ int main(){
     
    file.close(); //close file
     
-   //opening file "E2.txt" in out(write) mode
-   file.open("D2.txt",ios::out);
+   file.open("D2.txt",ios::out);    //opening file "D2.txt" in O/P (write) mode
     
    if(!file)
    {
