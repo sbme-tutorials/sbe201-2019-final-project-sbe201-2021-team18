@@ -2,7 +2,7 @@
 
 Testing of Huffman's algorith and the library file "Huffman.hpp" by including and using its functions.
 
-##_Code Outlines_
+## __Code Outlines__
 
 Test file is using a sequence to test the library file both ways: Encoding and Decoding as following:-
 * Request input from user ("Encode" or "Decode").
